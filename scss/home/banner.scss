@@ -1,0 +1,36 @@
+.banner{
+    max-width: 981px;
+    height: 200px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../../images/tours-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    
+
+    //if this doesnt save, save in variables then run
+}
+
+.bannertext{
+    color: $site-white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'proxima';
+    font-size: 60px;
+}
+
+
+@media all and (max-width:800px) 
+{
+    .banner
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+}

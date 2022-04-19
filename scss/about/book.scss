@@ -1,0 +1,29 @@
+.book{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+    .button{
+        width: 133px;
+        height: 40px;
+        border: none;
+        color: $site-white;
+        padding: 12px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        
+    }
+
+    .buttontext1{
+        background-color: $site-blue;
+        border-radius: 25px;
+    }
+}
