@@ -164,7 +164,7 @@
         
 
         .offer-box{
-            max-width: 722px;
+            
             display:flex;
             position: relative;
             margin-bottom: 37px;
@@ -222,8 +222,8 @@
                 margin-bottom:10px;
                 font-size: 16px;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-style: italic;
-                font-weight: bold;
+                //font-style: italic;
+                //font-weight: bold;
                 
                 .offer1-header{
                     background-color: white;       
@@ -329,7 +329,7 @@
                     }
                     
                       .button1{
-                          background-color: $site-blue;
+                          background-color: $site-pink;
                         }
 
 

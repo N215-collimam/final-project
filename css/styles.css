@@ -160,7 +160,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 .offer .offer-boxes .offer-box {
-  max-width: 722px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,8 +216,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 10px;
   font-size: 16px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-style: italic;
-  font-weight: bold;
 }
 .offer .offer-boxes .offer-box .offer-text .offer1-header {
   background-color: white;
@@ -313,7 +310,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .offer .offer-boxes .offer-box .offer-text .top-boxes .button1 {
-  background-color: #79addc;
+  background-color: #EE4367;
 }
 .offer .offer-boxes .offer-box .offer-text .contact-text p {
   font-size: 18px;
@@ -873,7 +870,7 @@ nav .links span {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
-  background-color: #79addc;
+  background-color: #EE4367;
   margin-top: 135px;
 }
 .foot .logo {
