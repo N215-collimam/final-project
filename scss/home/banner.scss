@@ -1,7 +1,7 @@
 .banner{
     max-width: 981px;
     height: 200px;
-    background-image: linear-gradient(rgba($site-black, .6)), url(../../images/tours-header.jpg);
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tours-header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,10 +24,351 @@
     font-size: 60px;
 }
 
+.bannerau{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.bannerca{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-08.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.bannereg{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-06.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.bannerfr{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.banneri{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.bannerjp{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.bannernz{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.bannerue{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-09.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.bannerus{
+    max-width: 981px;
+    height: 413px;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    color: $site-white;
+
+    .about-hero-text{
+        position: absolute;
+        font-size: 80px;
+        top: 10px;
+        left: 10px;
+        font-family: 'proxima';
+    }
+
+    .price-text{
+        position: absolute;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: 'proxima';
+        right: 10px;
+        bottom: 10px;
+    }
+}
 
 @media all and (max-width:800px) 
 {
     .banner
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannerau
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannerca
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannereg
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannerfr
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .banneri
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannerjp
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannernz
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannerue
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+
+    .bannerus
     {
         display: block; 
         float: none; 
