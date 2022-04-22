@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel-Fly</title>
+    <title>Eventsy</title>
     <link rel="stylesheet" href= "css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -14,57 +14,20 @@
             <div class="logo"></div>
 
             <div class="links">
-                <a href="">home</a>
+                <a id="home" href="#home">home</a>
                 <span>/</span>
-                <a href="">about</a>
+                <a id="about" href="#about">about</a>
                 <span>/</span>
-                <a href="">gallery</a>
+                <a id="gallery" href="#gallery">gallery</a>
                 <span>/</span>
-                <a href="blog.html">blog</a>
+                <a id="blog" href="#blog">blog</a>
                 <span>/</span>
-                <a href="contact.html">contact</a>
+                <a id="contact" href="#contact">contact</a>
             </div>
         </nav>
 
         <div id="app">
-            <div class="offer">
-      
-              <div class="contact-header">
-                <h1>CONTACT US:</h1>
-                <div class="border-bottom"></div>
-                
-              </div>
-      
-              <div class="offer-boxes">
-      
-      
-                <div class="offer-box">
-                  <div class="offer-text">
-
-                    <div class="top-boxes">
-                      <div class="holder"><input type="text" id="fName"  class = "long-box" placeholder="Your name..."/></div>
-                      <div class="holder"><input type="email" id="email" class="long-box" placeholder="Email Address..."/></div>
-                      <div class="holder"><input type="text" id="fName"  class = "long-box" placeholder="Company..."/></div>
-
-                      <div class="bigbox">
-                        <div class="holder"><input type="message" id="message" class="long-box" placeholder="Message..."/></div>
-                      </div>
-                    
-                      
-                      <button class="button button1">SEND MESSAGE</button>
-                      
-                    </div>
-                  </div>
-                  <div class="map-image">
-                    <img src="images/map.JPG" alt="map"/>
-                  </div>
-                </div>
-      
-                
-
-      
-              </div>
-            </div>
+            
         </div>
 
         <div class="foot">
@@ -77,8 +40,12 @@
               <i class="fa-brands fa-facebook-square"></i> <i class="fa-brands fa-instagram-square"></i> <i class="fa-brands fa-twitter-square"></i>
             </div>
             <div class="bottext"><p>Copyright 2019 eventsy. All rights reserved</p></div>
-            
         </div>
-        
+
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script type = "module" src="model/model.js"></script>
+    <script type = "module" src="app/app.js"></script>
+
     </body>
 </html>
