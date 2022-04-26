@@ -9,6 +9,14 @@ nav{
     position: relative;
     z-index: 99;
 
+    .white-text{
+        color: $site-white;
+      }
+      
+      .black-text{
+        color: $site-black;
+      }
+      
     .logo{
         width: 92px;
         height: 42px;
@@ -34,6 +42,8 @@ nav{
         }
     }
 }
+
+
 
 
 @media all and (max-width: 1000px){

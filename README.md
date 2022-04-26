@@ -10,6 +10,6 @@ Use an app.js and model.js to load content using the links or the word in the se
 
 Transfer formatting from previously made webpages and adapt it to be used for this similar webpage.
 
-I made this website using css to style each sheet, especially the header and the footer that stay the same across nearly all the pages. I first transferred over all the pages from the travel fly website that were very similar, and then adjusted them to look correct for the new website. After that, I did the blog pages and the gallery pages as they were all very similar and didn't need to have many changes to style and content. Finally, I switched all of my content into the model js file, and made all of the content load dynamically. 
+I made this website using css to style each sheet, especially the header and the footer that stay the same across nearly all the pages. I first transferred over all the pages from the travel fly website that were very similar, and then adjusted them to look correct for the new website. After that, I did the blog pages and the gallery pages as they were all very similar and didn't need to have many changes to style and content. Finally, I switched all of my content into the model js file, and made all of the content load dynamically. Bold font weight was used throughout to make the font look accurate on my pc.
 
 https://in-info-web4.informatics.iupui.edu/~collimam/final-project/

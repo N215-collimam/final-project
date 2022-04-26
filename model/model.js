@@ -531,6 +531,14 @@ var contactContent = `<div class="offer">
 //this function is being called from the app.js and it has the page name
 export function modelPageName(pgName){
     console.log(pgName);
-
     $("#app").html(eval(pgName));
+
+    if(pgName == "homeContent"){
+      $("nav a").addClass("white-text");
+  }
+  
 }
+
+  
+
+  
