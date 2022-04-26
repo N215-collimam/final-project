@@ -1,0 +1,76 @@
+.blogOne{
+    margin-top: 60px;
+    margin-bottom: 150px;
+
+    .blogOne-hero{
+        background-image: linear-gradient(rgba($site-pink, .6)),url(../images/blog.jpg);
+        max-width: 980px;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .pink-box{
+            margin: 0 auto;
+            position: absolute;
+            top: 25%;
+            left: 43%;
+            width: 155px;
+            height: 155px;
+            background-color: $site-pink;
+            text-align: center;
+            color: $site-white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+           .date{
+                h1{
+                    font-size: 55px;
+                    text-decoration: none;
+                    display: inline-block;
+                    border: none;
+                    font-weight: bold;
+                }
+           }
+
+           .date-name{
+                p{
+                    font-size: 31px;
+                    text-decoration: none;
+                    display: inline-block;
+                    border: none;
+                }
+           }  
+        }
+    
+    }
+
+    .blogs-header{      
+        margin-top: 50px;
+       
+
+        h1{
+            margin-bottom: 30px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: normal;
+            letter-spacing: 5px;
+            font-weight: bold;
+            letter-spacing: 5px;
+            color: $site-pink;
+        }
+        
+    }
+
+    .blogs-text{
+
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+    }
+
+}

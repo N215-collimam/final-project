@@ -29,14 +29,14 @@
         h1{
             margin-top: 56px;
             margin-bottom: 5px;
-            font-size: 30px;
-            font-family: proxima;
-            font-style: normal;
-            letter-spacing: 10px;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            letter-spacing: 2px;
         }
         
         .border-bottom{
-            width: 110px;
+            width: 229px;
             height: 2px;
             background-color: black;
             margin-bottom: 35px;
@@ -63,13 +63,14 @@
             margin-bottom: 50px;
         }
     }
-
+    .left-side{
+        
     .blog-box{
 
-        .blue-box{
+        .pink-box{
             max-width: 60px;
             max-height: 60px;
-            background-color: $site-blue;
+            background-color: $site-pink;
             text-align: center;
             color: $site-white;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -95,8 +96,104 @@
         }
         
         .blog-pic{
-            max-width: 900px;
-            max-height: 260px;
+            max-width: 380px;
+            max-height: 140px;
+            display: flex;
+            position: relative;
+            overflow: hidden;
+            margin-left: 80px;
+            margin-top: -60px;
+            
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .blog-text{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 80px;
+            font-weight: bold;
+            
+            h1{
+                margin-top: 15px;
+                max-width: 245px;
+                font-size: 15px;
+                color: $site-black;
+            }
+
+            p{
+                margin-top: 15px;
+                max-width: 380px;
+                font-size: 13px;
+                color: $site-pink;
+                margin-bottom: 30px;
+            }
+        }
+
+        .blog-text2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 80px;
+            font-weight: bold;
+            
+            h1{
+                margin-top: 15px;
+                max-width: 245px;
+                font-size: 15px;
+                color: $site-black;
+            }
+
+            p{
+                margin-top: 15px;
+                max-width: 380px;
+                font-size: 13px;
+                color: $site-pink;
+            }
+        }
+
+    }
+}
+
+.right-side{
+    position: absolute;
+    margin-left: 520px;
+    top: 260px;
+
+    .blog-box{
+
+        .pink-box{
+            max-width: 60px;
+            max-height: 60px;
+            background-color: $site-pink;
+            text-align: center;
+            color: $site-white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+           .date{
+                h1{
+                    font-size: 22px;
+                    text-decoration: none;
+                    display: inline-block;
+                    border: none;
+                    font-weight: bold;
+                }
+           }
+
+           .date-name{
+                p{
+                    font-size: 12px;
+                    text-decoration: none;
+                    display: inline-block;
+                    border: none;
+                }
+           }  
+        }
+        
+        .blog-pic{
+            max-width: 380px;
+            max-height: 140px;
             display: flex;
             position: relative;
             overflow: hidden;
@@ -126,8 +223,8 @@
                 margin-top: 15px;
                 max-width: 380px;
                 font-size: 13px;
-                color: $site-blue;
-                margin-bottom: 120px;
+                color: $site-pink;
+                margin-bottom: 30px;
             }
         }
 
@@ -146,11 +243,12 @@
                 margin-top: 15px;
                 max-width: 380px;
                 font-size: 13px;
-                color: $site-blue;
+                color: $site-pink;
             }
         }
 
     }
+}
 
     .offer-boxes{
         margin-top: 36px;
